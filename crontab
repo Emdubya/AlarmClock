@@ -1,0 +1,3 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/etc:
+ 35 07 * * * sudo python /home/pi/subprocess20.py > /dev/null 2>&1
