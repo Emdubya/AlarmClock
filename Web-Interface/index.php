@@ -36,17 +36,6 @@ echo "<center><h1>Currently configured alarm time - ". $alarm. "</h1></center>";
 <input type="submit" id="submit" name="submit" /><br /><br />
 </form>
 </div>
-<!--<div class="center300">
-<h1> Light Control </h1>
-<h2>All On</h2>
-<form name="commandform">
-        <input name="commandurl" type="hidden" value="http://192.168.1.120/api/newdeveloper/groups/0/action">
-        <input name="messagebody" type="hidden" value="{'on':True}">
-<button type="button" onclick="getHTML('PUT')">PUT</button>
-</form>
-<h2>All Off</h2>
-<h2>Scene selection</h2>
-</div> -->
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
